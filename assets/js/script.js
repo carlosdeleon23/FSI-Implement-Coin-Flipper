@@ -1,6 +1,6 @@
 // TODO: Declare any global variables we need
-let headsCounterOnPage = document.getElementById('heads')
-let tailsCounterOnPage = document.getElementById('tails')
+const headsCounterOnPage = document.getElementById('heads')
+const tailsCounterOnPage = document.getElementById('tails')
 
 let totalHeads = 0
 let totalTails = 0
@@ -13,7 +13,7 @@ let images = [{
     imagePath: "./assets/images/penny-heads.jpg",
     message: "You flipped heads!",
     side: "heads",
-}
+},
 {
     imagePath: "./assets/images/penny-tails.jpg",
     message: "You flipped tails!",
@@ -68,50 +68,3 @@ document.addEventListener('DOMContentLoaded', function () {
         })
 
 })
-
-
-// Variables
-// let heads = 0
-// let tails = 0
-// // Outcome of Flip
-// // Number of Heads
-// // Number of Tails
-// // Total Numbrt of Flips
-// // Percentage of Heads
-// // Percentage of Tails
-// // Flip Button
-// // Clear Button
-// // Image
-// // Status Message
-
-// // Process 
-// // Use querySelector to select Flip Button
-
-// // Use querySelector to select Clear Button
-// // Use querySelector to select Image
-// // Use querySelector to select Status Message
-
-// // Event Listeners 
-// // On Hover Flip Button 
-// // On Hover Clear Button 
-// // On Click Flip Button 
-// // On Click Clear Button 
-
-// // Initial State 
-// // Create Image
-// // Show Heads Image
-// // Create Message Area
-// // Create Flip Button
-// // Create Clear Button
-
-// // On The Flip
-// // Randomly generate heads or tails
-// // Image is set
-// // Message is set
-// // Number of Heads is set
-// // Percentage of Heads is set
-// // Number of Tails is set
-// // Percentage of Tails is set
-
-// // On The Clear
-// // Reset to Initial State
